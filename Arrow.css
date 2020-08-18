@@ -1,0 +1,550 @@
+.title {
+  font-size: calc(1.425rem + 2.1vw);
+}
+@media (min-width: 1200px) {
+  .title {
+    font-size: 3rem;
+  }
+}
+
+a.nav-link-scroll {
+  color: black !important;
+}
+a.nav-link-scroll:hover {
+  color: #31aff5 !important;
+}
+a.nav-link-scroll:link, a.nav-link-scroll:visited, a.nav-link-scroll:active {
+  text-decoration: none !important;
+}
+
+.about-text-column, .parallax-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans";
+}
+
+.footer-icons-text {
+  color: #798696;
+  font-size: 0.9375rem;
+  font-family: "Open Sans";
+}
+
+.subheader-text {
+  color: #6b777c;
+  font-size: 1.125rem;
+  font-family: "Open Sans";
+}
+
+.jumbotron {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25) 100%, rgba(0, 0, 0, 0.25) 100%), url("https://jasonkim-media.s3-us-west-1.amazonaws.com/Projects/images/Arrow/bg-hero6.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  font-family: "Open Sans";
+}
+
+#home {
+  height: 110vh;
+}
+@media screen and (max-width: 576px) {
+  #home {
+    height: 120vh;
+  }
+}
+
+.nav-cta {
+  height: 40px;
+  font-family: "Open Sans";
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #31aff5;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  padding: 8px 30px;
+}
+.nav-cta:hover {
+  background-color: #fff;
+  color: #31aff5;
+}
+
+.nav-fixed-cta {
+  height: 40px;
+  font-family: "Open Sans";
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  padding: 8px 30px;
+}
+.nav-fixed-cta:hover {
+  background-color: transparent;
+  color: #31aff5;
+}
+
+.courses-cta {
+  height: 40px;
+  font-family: "Open Sans";
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #31aff5;
+  cursor: pointer;
+  border-radius: 5px;
+  border-color: transparent;
+  padding: 6px, 30px;
+}
+.courses-cta:hover {
+  background-color: #fff;
+  color: #FF6700;
+  border-color: #FF6700;
+}
+
+.signup-cta {
+  height: 60px;
+  width: 100%;
+  font-family: "Open Sans";
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #31aff5;
+  cursor: pointer;
+  border-radius: 5PX;
+  border: none;
+}
+.signup-cta:hover {
+  background-color: #4FBCF9;
+}
+
+body {
+  min-width: fit-content;
+  padding-top: 0;
+}
+
+/* fix padding under menu after resize */
+@media screen and (max-width: 576px) {
+  body {
+    padding-top: 56px;
+  }
+
+  .navbar-collapse {
+    position: relative;
+    left: 22px;
+  }
+
+  .fixed-navbar {
+    background-color: #ffffff;
+    box-shadow: 0 0 8px 0px rgba(88, 88, 88, 0.19);
+  }
+
+  a.nav-link-fixed {
+    color: black !important;
+  }
+  a.nav-link-fixed:hover {
+    color: #31aff5 !important;
+  }
+  a.nav-link-fixed:link, a.nav-link-fixed:visited, a.nav-link-fixed:active {
+    text-decoration: none !important;
+  }
+
+  .nav-fixed-cta {
+    color: #ffffff;
+    background-color: #31aff5;
+  }
+
+  .logo-white {
+    background-image: url("https://jasonkim-media.s3-us-west-1.amazonaws.com/Projects/images/Arrow/logo-blue.png") !important;
+  }
+
+  img.course-image {
+    width: 220px;
+  }
+
+  .footer-list {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  body {
+    padding-top: 0;
+  }
+
+  .about-content-layout {
+    text-align: center;
+  }
+
+  .welcome-header {
+    text-align: center;
+  }
+
+  img.course-image {
+    width: 240px;
+  }
+
+  .footer-list {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  body {
+    padding-top: 0;
+  }
+
+  img.course-image {
+    width: 330px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  body {
+    padding-top: 0;
+  }
+
+  img.course-image {
+    width: 230px;
+  }
+}
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #31aff5;
+}
+.navbar-light .navbar-nav .nav-link:link, .navbar-light .navbar-nav .nav-link:visited, .navbar-light .navbar-nav .nav-link:active {
+  text-decoration: none;
+}
+
+ul.navbar-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: "Open Sans";
+  font-weight: 700;
+}
+
+li.nav-item {
+  display: inline;
+  padding-right: 15px;
+}
+
+ul.footer-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li.footer-icons {
+  display: inline;
+}
+
+.logo-white {
+  background-image: url("https://jasonkim-media.s3-us-west-1.amazonaws.com/Projects/images/Arrow/logo-white.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 133px;
+  height: 40px;
+}
+
+.logo-blue {
+  background-image: url("https://jasonkim-media.s3-us-west-1.amazonaws.com/Projects/images/Arrow/logo-blue.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 133px;
+  height: 40px;
+}
+
+.home-header-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-wrapper {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.terms-text {
+  padding: 0;
+}
+
+.car-buttons {
+  padding-top: 1.6875rem;
+}
+
+.carousel-indicators > li {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.scroll-navbar {
+  box-shadow: 0 0 8px 0px rgba(88, 88, 88, 0.19);
+}
+
+.navbar-brand {
+  padding: 0 15px;
+}
+
+.signup-form {
+  padding: 46px;
+}
+@media screen and (max-width: 576px) {
+  .signup-form {
+    padding: 25px;
+  }
+}
+
+.form-wrapper {
+  background-color: #ffffff;
+}
+
+.form-control {
+  height: 60px;
+}
+
+.card-img-top {
+  border-radius: 50%;
+  width: 66%;
+  margin: 0 auto;
+}
+
+.card {
+  border: none;
+}
+
+.trial-section {
+  background-color: #31aff5;
+  color: #ffffff;
+}
+
+.trial-cta {
+  height: 60px;
+  width: 180px;
+  font-family: "Open Sans";
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #31aff5;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  border: 2px solid #ffffff;
+}
+.trial-cta:hover {
+  background-color: #ffffff;
+  color: #4FBCF9;
+  border: 2px solid #ffffff;
+}
+
+.about-header {
+  font-size: 1.875rem;
+  font-family: "Open Sans";
+}
+
+.about-icons {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+
+.site-image {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: inline;
+}
+
+.works-number {
+  background-color: #31aff5;
+  border-radius: 50%;
+  width: 68px;
+  height: 68px;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-text {
+  font-family: "Open Sans";
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.courses-header {
+  text-align: center;
+  color: #000000;
+  width: 100%;
+  font-family: "Open Sans";
+}
+
+.course-title {
+  font-family: "Open Sans";
+  font-size: 0.9375rem;
+  font-weight: 700;
+}
+
+.works-image {
+  width: 140px;
+}
+
+#key-features {
+  background-color: #f9f9f9;
+}
+
+.header-text {
+  font-weight: 400;
+}
+
+.features-subheader-text {
+  color: #6b777c;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.features-icon-spacing {
+  padding-top: 20px;
+}
+
+.icon {
+  font-weight: 400;
+  color: #31aff5;
+  font-size: 3rem;
+}
+
+.icon-check-wrapper {
+  float: left;
+}
+
+.icon-check {
+  color: #31aff5;
+  font-size: 1.25rem;
+  line-height: 1.2 !important;
+}
+
+.more-features-wrapper {
+  margin-left: 50px;
+  text-align: left;
+  letter-spacing: 0.5px;
+}
+
+.carousel-wrapper {
+  background-color: #31aff5;
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+
+.car-item {
+  color: #fff;
+  line-height: 1.6 !important;
+  padding-bottom: 25px;
+}
+
+.car-images {
+  border-radius: 50%;
+}
+
+.more-features-link {
+  color: #31aff5;
+  font-weight: 600;
+}
+
+.card-body {
+  padding: 0;
+}
+
+#plans-pricing {
+  background-color: #f9f9f9;
+}
+
+.pricing-headers {
+  font-weight: 700;
+}
+
+.pricing-subheader {
+  font-weight: 400;
+  color: #31aff5;
+  font-size: 3.125rem;
+}
+
+.pricing-wrapper {
+  background-color: #fff;
+  padding: 2rem;
+  box-shadow: 0 0 3px 0 rgba(107, 107, 107, 0.15), 0 0 30px 0 rgba(107, 107, 107, 0.08);
+}
+
+.pricing-text {
+  font-weight: 600;
+}
+
+.price-text {
+  font-size: 1.5rem;
+}
+
+.faq-form {
+  color: #fff;
+}
+
+.faq-wrapper {
+  background-color: #31aff5;
+  padding: 1rem;
+}
+
+.faq-cta {
+  height: 60px;
+  width: 200px;
+  font-family: "Open Sans";
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #31aff5;
+  border: 2px solid #ffffff;
+  cursor: pointer;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+}
+.faq-cta:hover {
+  background-color: #fff;
+  color: #31aff5;
+}
+
+#metrics {
+  background-color: #f9f9f9;
+}
+
+.logo-footer {
+  width: 150px;
+}
+
+.trial-header {
+  font-size: 2.375rem;
+}
+
+a.footer-links {
+  color: #6b777c;
+  text-decoration: none;
+}
+a.footer-links:hover {
+  color: #31aff5;
+}
+
+/*# sourceMappingURL=Arrow.css.map */
